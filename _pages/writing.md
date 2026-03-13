@@ -2,7 +2,7 @@
 layout: page
 title: writing
 permalink: /writing/
-nav: true
+nav: false
 nav_order: 2
 ---
 
