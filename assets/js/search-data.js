@@ -81,34 +81,6 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-email_contact',
-        title: 'Email_contact',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:ehiggs1@swarthmore.edu", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'Linkedin',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/emilyhiggs", "_blank");
-        },
-      },{
-        id: 'social-bluesky',
-        title: 'Bluesky',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://bsky.app/profile/ehkopin.bsky.social", "_blank");
-        },
-      },{
-        id: 'social-orcid',
-        title: 'Orcid',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://orcid.org/0000-0003-3160-2031", "_blank");
-        },
-      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
