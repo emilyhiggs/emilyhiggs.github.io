@@ -1,9 +1,9 @@
 ---
 layout: page
-title: presentations
-permalink: /presentations/
+title: speaking
+permalink: /speaking/
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 Selected presentations with publicly available recordings or slides. SAA recordings are available to members via the SAA learning center.
