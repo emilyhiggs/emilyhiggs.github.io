@@ -30,4 +30,4 @@ nav_order: 2
 
 Peer-reviewed articles and contributed book chapters.
 
-{% bibliography %}
+{% bibliography --query @* %}
