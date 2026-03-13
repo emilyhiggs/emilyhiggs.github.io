@@ -6,17 +6,10 @@
 
 email: ehkopin@gmail.com
 
-linkedin: emilyhiggs
+linkedin_username: emilyhiggs
+
+bluesky_url: ehkopin.bsky.social
+
+orcid_id: 0000-0003-3160-2031
 
 rss_icon: true # RSS feed for writing/blog section
-
-custom_social:
-  - name: bluesky
-    logo: https://upload.wikimedia.org/wikipedia/commons/7/7a/Bluesky_Logo.svg
-    title: Bluesky
-    url: https://bsky.app/profile/ehkopin.bsky.social
-
-  - name: orcid
-    logo: https://upload.wikimedia.org/wikipedia/commons/0/06/ORCID_iD.svg
-    title: ORCID
-    url: https://orcid.org/0000-0003-3160-2031
