@@ -91,6 +91,9 @@
       {% when 'blogger_url' %}
         {% capture link %}{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
+      {% when 'bluesky' %}
+        {% capture link %}{{ social[1]['url'] }}{% endcapture %}
+        {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'bluesky_url' %}
         {% capture link %}{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
@@ -144,6 +147,9 @@
       {% when 'leetcode_id' %}
         {% capture link %}https://leetcode.com/u/{{ social[1] }}/{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
+      {% when 'linkedin' %}
+        {% capture link %}{{ social[1]['url'] }}{% endcapture %}
+        {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'linkedin_username' %}
         {% capture link %}https://www.linkedin.com/in/{{ social[1] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
@@ -152,6 +158,9 @@
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'medium_username' %}
         {% capture link %}https://medium.com/@{{ social[1] }}{% endcapture %}
+        {% assign sameaslinks = sameaslinks | push: link %}
+      {% when 'orcid' %}
+        {% capture link %}{{ social[1]['url'] }}{% endcapture %}
         {% assign sameaslinks = sameaslinks | push: link %}
       {% when 'orcid_id' %}
         {% capture link %}https://orcid.org/{{ social[1] }}{% endcapture %}
