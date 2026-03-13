@@ -2,7 +2,7 @@
 layout: page
 title: speaking
 permalink: /speaking/
-nav: true
+nav: false
 nav_order: 3
 ---
 
