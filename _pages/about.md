@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+nav: true
+nav_order: 1
 subtitle: Head of Digital Collections Strategy · <a href='https://www.swarthmore.edu/libraries'>Swarthmore College Libraries</a>
 
 profile:
