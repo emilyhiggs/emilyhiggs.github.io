@@ -6,13 +6,8 @@
 
 email_contact:
   logo: "fa-solid fa-envelope"
-  url: "mailto:ehiggs1@swarthmore.edu"
+  url: "mailto:ehkopin@pm.me"
   title: "Send me an email"
-
-linkedin:
-  logo: "fa-brands fa-linkedin"
-  url: "https://www.linkedin.com/in/emilyhiggs"
-  title: "LinkedIn"
 
 bluesky:
   logo: "fa-brands fa-bluesky"
